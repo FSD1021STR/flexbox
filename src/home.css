@@ -1,0 +1,15 @@
+.container_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container_flex > div:first-child{
+    width: 50vw;
+}
+.container_flex > div:first-child > button {
+    margin-top: 20px;
+}
+.container_flex > div:last-child {
+    background-color: white;
+    width: 50vw;
+    margin-left: 10px;
+}
